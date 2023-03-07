@@ -1,0 +1,26 @@
+#contactInformation{
+  transform: scale(1,1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#contactInformation:hover{
+  transform: scale(1,3);
+}
+
+#aboutMe{
+  transform: rotate(0);
+  transition: transform 1s ease;
+}
+
+#aboutMe:hover{
+transform: rotate(360deg);
+}
+
+#portfolioPieces{
+  transform: skew(1, 1);
+  transition: transform 0.5s ease-out;  
+}
+
+#portfolioPieces:hover{
+  transform: skew(10deg, 15deg); 
+}
